@@ -1,3 +1,10 @@
+1. Clone this framework https://github.com/gyuvaraj10/selenium-guice and run the mvn clean install to create both jar files (both src and test)
+2. Copy the selenium-guice-1.2.2.jar and selenium-guice-1.2.2-tests.jar into src/main/webapp/WEB-INF/lib folder
+3. copy the application.properties into into the WEB-INF folder
+4. Run mvn clean install to create the war file
+5. Run the tomcat server and deploy the created war file using the manage-gui admin credentials
+
+
 Run the command to create the project
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp
 
